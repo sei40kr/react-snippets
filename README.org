@@ -2,6 +2,26 @@
 
 * Table of Contents :TOC_4_gh:noexport:
 - [[#description][Description]]
+- [[#how-it-works][How it works]]
 
 * Description
 React snippets for yasnippet.
+
+* How it works
+  For example, when expand =component= snippet in =Component.tsx=
+
+#+BEGIN_SRC js
+  import './component.scss';
+
+  const CSS_ROOT = 'component';
+
+  interface IProps {}
+
+  const Component = (props: IProps) => (
+    <div className={CSS_ROOT}>
+      |
+    </div>
+  );
+
+  export default Component;
+#+END_SRC
