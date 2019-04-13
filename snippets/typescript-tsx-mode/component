@@ -3,6 +3,8 @@
 # key: component
 # --
 
+import * as React from 'react';
+
 import './`(react-snippets//file-class-name)`.${1:$$(yas-choose-value '("scss" "css"))}';
 
 const CSS_ROOT = '`(react-snippets//component-css-root)`'
