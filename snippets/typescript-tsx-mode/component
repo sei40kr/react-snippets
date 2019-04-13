@@ -3,16 +3,16 @@
 # key: component
 # --
 
-import './`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`.scss';
+import './`(react-snippets//file-class-name)`.scss';
 
-const CSS_ROOT = '`(s-replace "_" "-" (s-snake-case (file-name-nondirectory (file-name-sans-extension (buffer-file-name)))))`'
+const CSS_ROOT = '`(react-snippets//component-css-root)`'
 
 export interface IProps {}
 
-const `(file-name-base (or (buffer-file-name) (buffer-name)))` = (props: IProps) => (
+const `(react-snippets//file-class-name)` = (props: IProps) => (
   <${1:div} className={CSS_ROOT}>
     $0
   </$1>
 );
 
-export default `(file-name-base (or (buffer-file-name) (buffer-name)))`;
+export default `(react-snippets//file-class-name)`;
