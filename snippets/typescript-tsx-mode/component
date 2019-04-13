@@ -12,9 +12,9 @@ const CSS_ROOT = '`(s-replace "_" "-" (s-snake-case (file-name-nondirectory (fil
 export interface IProps {};
 
 const `(file-name-base (or (buffer-file-name) (buffer-name)))` = (props: IProps) => (
-  <div className={CSS_ROOT}>
+  <${1:div} className={CSS_ROOT}>
     $0
-  </div>
+  </$1>
 );
 
 export default `(file-name-base (or (buffer-file-name) (buffer-name)))`;
