@@ -1,8 +1,0 @@
-# name : componentDidUpdate(prevProps, prevState, snapshot) { ... }
-# contributor : Seong Yong-ju <sei40kr@gmail.com>
-# key: component-did-update
-# --
-
-componentDidUpdate(prevProps: Props, prevState: State, snapshot: any) {
-  $0
-}
