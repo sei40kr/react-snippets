@@ -7,12 +7,12 @@ import { Component } from 'react';
 
 import './`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`.scss';
 
-type Props = {};
+const CSS_ROOT = '`(s-replace "_" "-" (s-snake-case (file-name-nondirectory (file-name-sans-extension (buffer-file-name)))))`'
 
-type State = {};
+const `(file-name-base (or (buffer-file-name) (buffer-name)))` = (props) => (
+  <${1:div} className={CSS_ROOT}>
+    $0
+  </$1>
+);
 
-export default class `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))` extends Component<Props, State> {
-  render() {
-    return ${0:<div />};
-  }
-}
+export default `(file-name-base (or (buffer-file-name) (buffer-name)))`;
