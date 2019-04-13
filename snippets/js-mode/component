@@ -3,8 +3,6 @@
 # key: component
 # --
 
-import { Component } from 'react';
-
 import './`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`.scss';
 
 const CSS_ROOT = '`(s-replace "_" "-" (s-snake-case (file-name-nondirectory (file-name-sans-extension (buffer-file-name)))))`'

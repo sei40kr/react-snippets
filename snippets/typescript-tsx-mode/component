@@ -3,13 +3,11 @@
 # key: component
 # --
 
-import { Component } from 'react';
-
 import './`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`.scss';
 
 const CSS_ROOT = '`(s-replace "_" "-" (s-snake-case (file-name-nondirectory (file-name-sans-extension (buffer-file-name)))))`'
 
-export interface IProps {};
+export interface IProps {}
 
 const `(file-name-base (or (buffer-file-name) (buffer-name)))` = (props: IProps) => (
   <${1:div} className={CSS_ROOT}>
