@@ -10,18 +10,18 @@ React snippets for yasnippet.
 * How it works
   For example, when expand =component= snippet in =Component.tsx=
 
-#+BEGIN_SRC js
-  import './component.scss';
+  #+BEGIN_SRC js
+    import './component.scss';
 
-  const CSS_ROOT = 'component';
+    const CSS_ROOT = 'component';
 
-  interface IProps {}
+    interface IProps {}
 
-  const Component = (props: IProps) => (
-    <div className={CSS_ROOT}>
-      |
-    </div>
-  );
+    const Component = (props: IProps) => (
+      <div className={CSS_ROOT}>
+        |
+      </div>
+    );
 
-  export default Component;
-#+END_SRC
+    export default Component;
+  #+END_SRC
