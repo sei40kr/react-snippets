@@ -3,14 +3,14 @@
 # key: component
 # --
 
-import './`(react-snippets//file-class-name)`.scss';
+import './`(react-snippets//file-class-name)`.${1:$$(yas-choose-value '("scss" "css"))}';
 
 const CSS_ROOT = '`(react-snippets//component-css-root)`'
 
 const `(react-snippets//file-class-name)` = (props) => (
-  <${1:div} className={CSS_ROOT}>
+  <${2:div} className={CSS_ROOT}>
     $0
-  </$1>
+  </$2>
 );
 
 export default `(react-snippets//file-class-name)`;
