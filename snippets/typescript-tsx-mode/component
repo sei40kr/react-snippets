@@ -1,0 +1,20 @@
+# name : React component template
+# contributor : Seong Yong-ju <sei40kr@gmail.com>
+# key: component
+# --
+
+import { Component } from 'react';
+
+import './`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`.scss';
+
+const CSS_ROOT = '`(s-replace "_" "-" (s-snake-case (file-name-nondirectory (file-name-sans-extension (buffer-file-name)))))`'
+
+export interface IProps {};
+
+const `(file-name-base (or (buffer-file-name) (buffer-name)))` = (props: IProps) => (
+  <div className={CSS_ROOT}>
+    $0
+  </div>
+);
+
+export default `(file-name-base (or (buffer-file-name) (buffer-name)))`;
