@@ -1,0 +1,28 @@
+# name : React component class template
+# contributor : Seong Yong-ju <sei40kr@gmail.com>
+# key: component-class
+# --
+
+import * as React from 'react';
+
+import './`(react-snippets//file-class-name)`.${1:$$(yas-choose-value '("scss" "css"))}';
+
+const CSS_ROOT = '`(react-snippets//component-css-root)`'
+
+export interface IProps {}
+
+class `(react-snippets//file-class-name)` extends React.Component<IProps> {
+  constructor(props: IProps) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <${2:div} className={CSS_ROOT}>
+        $0
+      </$2>
+    );
+  }
+}
+
+export default `(react-snippets//file-class-name)`;
