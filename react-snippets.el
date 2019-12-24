@@ -61,9 +61,7 @@ See Info node `(elisp)Customization Types'."
   "Return the class name of the component root of current buffer."
   (s-replace "_" "-" (s-snake-case (react-snippets--file-class-name))))
 
-;;;###autoload
-(eval-after-load 'yasnippet
-  '(react-snippets--initialize))
+(react-snippets--initialize)
 
 (provide 'react-snippets)
 
