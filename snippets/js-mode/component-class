@@ -5,11 +5,11 @@
 
 import * as React from 'react';
 
-import './`(react-snippets//file-class-name)`.${1:$$(yas-choose-value '("scss" "css"))}';
+import './`(react-snippets--file-class-name)`.${1:$$(yas-choose-value '("scss" "css"))}';
 
-const CSS_ROOT = '`(react-snippets//component-css-root)`'
+const CSS_ROOT = '`(react-snippets--component-css-root)`'
 
-class `(react-snippets//file-class-name)` extends React.Component {
+class `(react-snippets--file-class-name)` extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -23,4 +23,4 @@ class `(react-snippets//file-class-name)` extends React.Component {
   }
 }
 
-export default `(react-snippets//file-class-name)`;
+export default `(react-snippets--file-class-name)`;
