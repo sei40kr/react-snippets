@@ -22,10 +22,8 @@ emacs -Q --batch \
 emacs -Q --batch \
       --eval "$init" \
       --eval "(progn
-(unless (package-installed-p 'f)
-  (package-install 'f))
-(unless (package-installed-p 'json)
-  (package-install 'json))
+(unless (package-installed-p 'yasnippet)
+  (package-install 'yasnippet))
 (unless (package-installed-p 's)
   (package-install 's))
 (setq byte-compile-error-on-warn t)
