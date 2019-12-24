@@ -1,0 +1,8 @@
+# name: componentDidUpdate
+# contributor: Seong Yong-ju <sei40kr@gmail.com>
+# key: comp-did-update
+# --
+
+componentDidUpdate(prevProps, prevState, snapshot) {
+  $0
+}

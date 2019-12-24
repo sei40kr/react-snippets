@@ -1,0 +1,8 @@
+# name: shouldComponentUpdate
+# contributor: Seong Yong-ju <sei40kr@gmail.com>
+# key: should-comp-update
+# --
+
+shouldComponentUpdate(nextProps: IProps, nextState: IState): boolean {
+  $0
+}

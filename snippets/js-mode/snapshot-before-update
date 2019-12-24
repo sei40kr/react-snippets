@@ -1,0 +1,9 @@
+# name: getSnapshotBeforeUpdate
+# contributor: Seong Yong-ju <sei40kr@gmail.com>
+# key: snapshot-before-update
+# --
+
+static getSnapshotBeforeUpdate(prevProps, prevState) {
+  $0
+  return null;
+}
